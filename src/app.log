@@ -1,0 +1,5 @@
+2024-08-16T08:33:32.144243Z  INFO axum_rust::middleware: method = GET, uri = /todo/all, status = 200, duration = 27.35ms
+2024-08-16T08:52:30.543839Z  INFO axum_rust::middleware: method = GET, uri = /todo/all, status = 200, duration = 6.94ms
+2024-08-16T09:13:06.958764Z  INFO axum_rust::middleware: method = GET, uri = /todo/al, status = 404, duration = 27.80µs
+2024-08-16T09:20:51.924814Z  INFO axum_rust::middleware: method = GET, uri = /todo/al, status = 404, duration = 46.10µs
+2024-08-16T09:20:51.925300Z ERROR axum_rust::middleware: Error response: method = GET, uri = /todo/al, status = 404, duration = 46.10µs
